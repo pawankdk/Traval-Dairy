@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/form"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/loginlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Entries Detail"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="@color/oceanblue"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/cimage"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_baseline_image_24"/>
+
+        <TextView
+            android:id="@+id/date_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="3dp"
+            android:drawableLeft="@drawable/ic_baseline_date_range_24"
+            android:drawablePadding="10dp"
+            android:inputType="datetime" />
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="10dp"
+            android:drawableLeft="@drawable/ic_baseline_location_on_24"
+            android:drawablePadding="3dp"
+            android:hint="Location"
+            android:textSize="15sp"
+            android:paddingTop="5dp"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="About/Title"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:hint="Journey Details"
+            android:paddingBottom="24dp"
+            android:singleLine="false"
+            android:inputType="textMultiLine" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+
+            <Button
+                android:id="@+id/updatebtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:text="Edit"
+                android:drawableLeft="@drawable/ic_baseline_edit_24"
+                android:backgroundTint="@color/oceanblue"
+                android:layout_margin="6dp"/>
+            <Button
+                android:id="@+id/deletebtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:text="Delete"
+                android:drawableLeft="@drawable/ic_baseline_delete_forever_24"
+                android:backgroundTint="@color/red"
+                android:layout_margin="6dp"/>
+
+            <Button
+                android:id="@+id/sharebtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:text="Share"
+                android:drawableLeft="@drawable/ic_baseline_share_24"
+                android:backgroundTint="@color/oceanblue"
+                android:layout_margin="6dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

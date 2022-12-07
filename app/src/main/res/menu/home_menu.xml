@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--    <item-->
+<!--        android:id="@+id/menu1"-->
+<!--        android:icon="@drawable/ic_baseline_menu_24"-->
+<!--        android:title="Log Out"-->
+<!--        app:showAsAction="always"/>-->
+
+    <item
+        android:id="@+id/aboutmenu"
+        android:title="About Us" />
+
+    <item
+        android:id="@+id/logmenu"
+        android:title="Log Out" />
+
+
+</menu>
